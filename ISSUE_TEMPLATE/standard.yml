@@ -1,1 +1,37 @@
+# .github/ISSUE_TEMPLATE/standard.yml
 
+# Der Name, der in der Vorlagenauswahl angezeigt wird
+name: Standard-Issue Erstellen
+# Die Beschreibung, die unter dem Namen angezeigt wird
+description: Die Standardvorlage zum Erstellen eines neuen Issues.
+
+# Der eigentliche Inhalt des Formulars
+body:
+  # KORREKT: Die Einrückung hier erfolgt mit 2 normalen Leerzeichen
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Beschreibung
+      description: "Beschreibe hier dein Anliegen, deinen Fehler oder deine Idee."
+      placeholder: "Was liegt dir auf dem Herzen?"
+    validations:
+      required: true
+      
+  # Dieser Teil erstellt ein Dropdown-Menü, in dem der Benutzer
+  # manuell ein Label auswählen kann.
+  - type: dropdown
+    id: label-picker
+    attributes:
+      label: "Bezeichnungen (Labels)"
+      description: "Wähle eine oder mehrere passende Kategorien für dein Anliegen aus."
+      multiple: true
+      options:
+        - bug
+        - documentation
+        - enhancement
+        - help wanted
+        - invalid
+        - question
+        - wontfix
+        - duplicate
+        - good first issue
