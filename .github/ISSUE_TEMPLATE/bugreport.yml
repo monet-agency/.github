@@ -1,0 +1,23 @@
+# .github/ISSUE_TEMPLATE/bug_report.yml
+name: Bug-Report
+description: Melde einen Fehler, um uns bei der Verbesserung zu helfen.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Danke, dass du dir die Zeit nimmst, einen Fehler zu melden!"
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Beschreibe den Bug
+      description: "Eine klare und genaue Beschreibung dessen, was der Fehler ist."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Was hast du denn erwartet?
+      description: "Eine klare und genaue Beschreibung dessen, was du an der Stelle erwartet hast."
+    validations:
+      required: false
