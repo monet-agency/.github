@@ -3,6 +3,8 @@ name: Bug-Report
 description: Melde einen Fehler, um uns bei der Verbesserung zu helfen.
 title: "[Bug]: "
 labels: ["bug"]
+assignees:
+  - Gamezoner
 body:
   - type: markdown
     attributes:
