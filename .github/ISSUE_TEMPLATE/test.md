@@ -1,6 +1,6 @@
 ---
 name: 'Testvorlage'
-description: 'Ein einfacher Test.'
+about: 'Ein einfacher Test.'
 ---
 
 Dies ist ein Test.
