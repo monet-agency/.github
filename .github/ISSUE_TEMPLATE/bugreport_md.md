@@ -1,14 +1,17 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Melde einen Fehler.
 title: "[BUG]"
 labels: bug
-assignees: gamezoner
+assignees: Gamezoner
 
 ---
 
 **Fehlerbeschreibung:**
-Eine kurze knappe Beschreibung, wann der Fehler was genau bewirkt.
+Beschreibe hier was passiert ist, und was du gemacht hast, als es passiert ist
+
+**Fehlerreproduktion:**
+Beschreibe hier, wenn möglich, wie man den Fehler reproduzieren kann
 
 **Erwartetes bzw. gewünschtes Verhalten**
-Eine klare Beschreibung, was an dieser Stelle eigentlich erwartet wurde.
+Beschreibe hier, was du erwartet hast bzw. was passieren sollte

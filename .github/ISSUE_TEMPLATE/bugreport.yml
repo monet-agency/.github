@@ -1,25 +1,33 @@
-# .github/ISSUE_TEMPLATE/bug_report.yml
-name: Bug-Report
-description: Melde einen Fehler, um uns bei der Verbesserung zu helfen.
-title: "[Bug]: "
-labels: ["bug"]
+name: BugReport
+description: Melde einen Fehler.
+title: "[BUG]: "
+labels:
+  - "bug"
 assignees:
   - Gamezoner
+
 body:
-  - type: markdown
-    attributes:
-      value: "Danke, dass du dir die Zeit nimmst, einen Fehler zu melden!"
   - type: textarea
     id: bug-description
     attributes:
-      label: Beschreibe den Bug
-      description: "Eine klare und genaue Beschreibung dessen, was der Fehler ist."
+      label: Fehlerbeschreibung
+      description: "Beschreibe hier was passiert ist, und was du gemacht hast, als es passiert ist"
+      placeholder: "EnterTheProblemHere"
     validations:
       required: true
   - type: textarea
-    id: expected-behavior
+    id: reproduction
     attributes:
-      label: Was hast du denn erwartet?
-      description: "Eine klare und genaue Beschreibung dessen, was du an der Stelle erwartet hast."
+      label: Fehlerreproduktion
+      description: "Beschreibe hier, wenn möglich, wie man den Fehler reproduzieren kann"
+      placeholder: "EnterHowToReproduceTheBugHere"
+    validations:
+      required: false
+  - type: textarea
+    id: expectation
+    attributes:
+      label: Erwartung
+      description: "Beschreibe hier, was du erwartet hast bzw. was passieren sollte"
+      placeholder: "EnterWhatYouExpectedToHappenIfYouWantTo"
     validations:
       required: false

@@ -1,0 +1,25 @@
+name: BugReport
+description: Melde einen Verbesserungsvorschlag, eine mögliche Erweiterung, eine fehlende Funktion etc.
+title: "[ENHANCEMENT]: "
+labels:
+  - "enhancement"
+assignees:
+  - Gamezoner
+
+body:
+  - type: textarea
+    id: enhancement-description
+    attributes:
+      label: Kurzbeschreibung
+      description: "Umreisse hier deine Idee oder deinen Vorschlag"
+      placeholder: "EnterTheEnhancementHere"
+    validations:
+      required: true
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailbeschreibung
+      description: "Erläutere hier deine Idee etwas genauer, wenn du möchtest"
+      placeholder: "EnterTheDetailsHere"
+    validations:
+      required: false
