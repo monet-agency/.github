@@ -1,0 +1,5 @@
+# .github/ISSUE_TEMPLATE/config.yml
+
+# Verhindert, dass der Link "Open a blank issue" angezeigt wird.
+# Nutzer müssen eine der vordefinierten Vorlagen auswählen.
+blank_issues_enabled: false
